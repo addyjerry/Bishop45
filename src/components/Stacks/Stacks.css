@@ -1,0 +1,42 @@
+.Stacks {
+  display: flex;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  gap: 20rem;
+  margin: 8rem;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+#frontend {
+  background-color: rgb(245, 243, 243);
+  width: 30rem;
+  border-radius: 10px;
+}
+
+#backend {
+  background-color: rgb(245, 243, 243);
+  width: 30rem;
+  border-radius: 10px;
+}
+
+/**MEDIA QUERIES FOR TABLETS**/
+@media screen and (max-width: 1024px) {
+  .Stacks {
+    display: flex;
+    font-size: 20px;
+    gap: 2rem;
+    margin: 2px;
+  }
+  #frontend {
+    width: 10rem;
+  }
+  #backend {
+    width: 10rem;
+  }
+  li {
+    margin-left: -35px;
+  }
+}

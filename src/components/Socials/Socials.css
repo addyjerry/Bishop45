@@ -1,0 +1,144 @@
+.socials {
+  font-size: 2rem;
+  position: fixed;
+  left: 40%;
+  z-index: 1;
+}
+
+#media {
+  display: flex;
+}
+#first {
+  display: flex;
+  width: 8rem;
+  gap: 15px;
+  height: 3rem;
+  background-color: rgb(231, 224, 224);
+  border-radius: 20px 0 0 20px;
+  margin-top: 10px;
+  opacity: 80%;
+  margin-left: -20px;
+}
+#X {
+  color: black;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+#youtube {
+  color: red;
+  margin-top: 8px;
+  margin-left: 3px;
+}
+#r {
+  background-color: rgb(231, 224, 224);
+  width: 4rem;
+  height: 4rem;
+  font-size: 3rem;
+  text-align: center;
+  border-radius: 10rem;
+  margin-left: 5rem;
+  z-index: 2;
+  position: fixed;
+}
+
+@keyframes react-animation {
+  0% {
+    transform: rotate(0);
+  }
+  10% {
+    transform: rotate(45deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  40% {
+    transform: rotate(135deg);
+  }
+  55% {
+    transform: rotate(180deg);
+  }
+  70% {
+    transform: rotate(225deg);
+  }
+  80% {
+    transform: rotate(270deg);
+  }
+  90% {
+    transform: rotate(315deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#react {
+  color: rgb(0, 162, 255);
+  margin-top: 8px;
+  animation: react-animation 30s infinite;
+}
+#second {
+  display: flex;
+  width: 8rem;
+  gap: 15px;
+  height: 3rem;
+  background-color: rgb(231, 224, 224);
+  border-radius: 0 20px 20px 0;
+  margin-top: 10px;
+  margin-left: 20px;
+  opacity: 80%;
+}
+#linkedin {
+  color: blue;
+  margin-left: 30px;
+  margin-top: 8px;
+}
+
+#github {
+  margin-top: 8px;
+}
+/**MEDIA QUERIES FOR TABLETS**/
+@media screen and (max-width: 1024px) {
+  .socials {
+    font-size: 1rem;
+    position: fixed;
+    left: 10%;
+    top: 40%;
+  }
+  #r {
+    background-color: rgb(231, 224, 224);
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 10rem;
+    margin-left: 5rem;
+  }
+  #first {
+    width: 4rem;
+    gap: 5px;
+    height: 1.7rem;
+    background-color: rgb(231, 224, 224);
+    border-radius: 20px 0 0 20px;
+    margin-top: 1px;
+    opacity: 80%;
+    margin-left: 24px;
+  }
+  #second {
+    width: 4rem;
+    gap: 5px;
+    height: 1.7rem;
+    background-color: rgb(231, 224, 224);
+    border-radius: 0 20px 20px 0;
+    margin-top: 1px;
+    opacity: 80%;
+    margin-left: 15px;
+  }
+  #linkedin {
+    margin-left: 15px;
+    margin-top: 8px;
+  }
+}
+
+/**MEDIA QUERIES FOR MOBILE PHONES **/
+@media screen  and (max-width:600px) {
+  
+}

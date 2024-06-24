@@ -1,0 +1,73 @@
+.Header {
+  display: flex;
+}
+#Propic {
+  width: 5rem;
+  height: 5rem;
+  border: 2px solid black;
+  border-radius: 5rem;
+}
+
+#Propic img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5rem;
+}
+
+#navbar {
+  margin: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 8rem;
+}
+
+nav ul li {
+  width: 8rem;
+  height: 2rem;
+  border-radius: 2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  background-color: black;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/**MEDIA QUERIES FOR  TABLETS**/
+@media screen and (max-width: 1024px) {
+  .Header {
+    display: block;
+  }
+  nav ul {
+    gap: 50px;
+  }
+  #navbar {
+    margin: 0;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  #Propic {
+    margin-left: 15%;
+  }
+  nav ul li {
+    width: 6rem;
+    height: 2rem;
+  }
+}
+
+/**MEDIA QUERIES FOR MOBILE PHONES**/
+@media screen and (max-width: 600px) {
+}

@@ -1,0 +1,110 @@
+.Work {
+  display: flex;
+  gap: 5rem;
+}
+
+#text_area {
+  width: 40rem;
+  font-size: 30px;
+  word-spacing: 5px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 15px;
+}
+#conf {
+  margin-left: 60%;
+  margin-top: 10%;
+  width: 30rem;
+  height: 20rem;
+}
+#game_area {
+  width: 40rem;
+  text-align: center;
+}
+#game_area h2 {
+  font-size: 40px;
+}
+
+#game_area #field {
+  display: flex;
+  margin: 3rem;
+  margin-left: 13rem;
+  text-align: center;
+  font-size: 80px;
+}
+
+#field1 {
+  width: 5rem;
+  height: 7rem;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+#field2 {
+  width: 5rem;
+  height: 7rem;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+#field3 {
+  width: 5rem;
+  height: 7rem;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+#game_area button {
+  width: 11rem;
+  height: 4rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  background-color: black;
+}
+/**MEDIA QUERIES FOR TABLETS**/
+@media screen and (max-width: 1024px) {
+  .Work {
+    display: block;
+    gap: 0;
+  }
+  #text_area {
+    width: 22rem;
+    font-size: 20px;
+    word-spacing: 5px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px;
+  }
+  p {
+    margin: 7px;
+  }
+  #game_area {
+    width: 20rem;
+    text-align: center;
+  }
+  #game_area h2 {
+    font-size: 30px;
+  }
+  #conf {
+    margin-left: 1rem;
+    margin-top: 60%;
+    width: 20rem;
+    height: 20rem;
+  }
+  #game_area #field {
+    display: flex;
+    margin: 1rem;
+    margin-left: 2rem;
+    text-align: center;
+    font-size: 80px;
+  }
+}
+/**MEDIA QUERIES FOR MOBILE PHONES **/
+@media screen and (max-width: 600px) {
+  #conf {
+    margin-top: 120%;
+    margin-left: 1rem;
+    width: 20rem;
+    height: 10rem;
+  }
+}

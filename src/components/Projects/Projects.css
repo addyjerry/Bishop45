@@ -1,0 +1,36 @@
+.Projects {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: larger;
+}
+
+#jects {
+  display: flex;
+  gap: 10rem;
+}
+#jects img {
+  width: 20rem;
+  height: 30rem;
+}
+
+/**MEDIA QUERIES FOR TABLETS**/
+@media screen and (max-width: 1024px) {
+  .Projects {
+    text-align: left;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: large;
+  }
+  #jects {
+    display: flex;
+    gap: 5px;
+  }
+  #jects img {
+    width: 5rem;
+    height: 5rem;
+  }
+  #jects p {
+    font-size: small;
+  }
+}
